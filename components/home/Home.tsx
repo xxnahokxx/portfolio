@@ -42,7 +42,7 @@ const HomeSection = () => {
                     </div>
 
                 </div>
-                <Image src={photo} alt="Photo" className="h-[300px] w-[300px] object-cover m-auto border-solid border-black border-[5px] rounded-full" />
+                <Image src={photo} alt="Photo" className="h-[300px] w-[300px] object-cover m-auto border-solid border-black border-[5px] rounded-full " />
             </div>
             <div className="w-[70%] pt-20 flex flex-wrap items-center">
                 <h2 className="font-bold">Tecnologias:</h2>
