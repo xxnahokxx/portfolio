@@ -1,10 +1,11 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter, Roboto } from 'next/font/google'
+import ico from "@/public/ico.svg"
 
 const inter = Roboto({
   weight: ['300', "400", "500", "700", "900"],
-  subsets:["latin"]
+  subsets: ["latin"]
 })
 
 export const metadata: Metadata = {
@@ -19,6 +20,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/ico.svg" />
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
   )
