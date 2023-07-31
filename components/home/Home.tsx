@@ -8,6 +8,8 @@ import ReactImage from "@/public/React.svg"
 import Tailwind from "@/public/tailwind.svg"
 import Next from "@/public/next.svg"
 import Typescript from "@/public/Typescript_logo_2020.svg"
+import Mongo from "@/public/MongoDB_Logo.svg"
+import PostgreSQL from "@/public/Postgresql_elephant.svg"
 
 import React from 'react'
 
@@ -46,8 +48,8 @@ const HomeSection = () => {
             </div>
             <div className="w-[70%] pt-20 flex flex-wrap items-center">
                 <h2 className="font-bold">Tecnologias:</h2>
-                <Image src={Html} alt="Html" title="html" className="h-[65px] w-[65px] object-scale-down m-auto " />
-                <Image src={Css} alt="Css" title="css" className="h-[65px] w-[65px] object-scale-down m-auto" />
+                <Image src={PostgreSQL} alt="Css" title="PostgreSQL" className="h-[65px] w-[65px] object-scale-down m-auto" />
+                <Image src={Mongo} alt="Html" title="MongoDB" className="h-[65px] w-[65px] object-scale-down m-auto " />
                 <Image src={JavaScript} alt="Javascript" title="javascript" className="h-[65px] w-[65px] object-scale-down m-auto" />
                 <Image src={Typescript} alt="Typescript" title="Typescript" className="h-[65px] w-[65px] object-scale-down m-auto" />
                 <Image src={ReactImage} alt="React" title="react" className="h-[65px] w-[65px] object-scale-down m-auto" />
