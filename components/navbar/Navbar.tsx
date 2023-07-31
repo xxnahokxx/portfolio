@@ -10,7 +10,6 @@ const Navbar = () => {
                 <a href="#home">Inicio</a>
                 <a href="#about">Acerca de mi</a>
                 <a href="#projects">Proyectos</a>
-                <a href="#contact">Contactame</a>
             </div>
         </div>
     )

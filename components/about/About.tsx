@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 const About = () => {
     return (
-        <div className='min-h-[70vh] grid grid-cols-2 bg-white items-center rounded-[40px] overflow-hidden mt-[100px]' id="about">
+        <div className='min-h-[70vh] flex flex-col-reverse mx-3 lg:grid lg:grid-cols-2 bg-white items-center rounded-[40px] overflow-hidden mt-[100px] drop-shadow-lg' id="about">
             <div className='p-16 flex flex-col justify-around h-full items-start'>
                 <h2 className='text-blue-600 font-extrabold'>ACERCA DE MI</h2>
                 <h3 className='font-semibold text-xl'>Un dedicado desarrollador Full Stack ubicado en Bogotá, Colombia</h3>
