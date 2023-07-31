@@ -2,7 +2,7 @@ import React from 'react'
 
 const Navbar = () => {
     return (
-        <div className='flex w-[100%] justify-between px-12 py-6 bg-white fixed drop-shadow-md'>
+        <div className='flex w-[100%] justify-between px-12 py-6 bg-white fixed drop-shadow-md z-30'>
             <h2 className='font-bold text-[20px]'>
                 Johan.dev
             </h2>

@@ -10,19 +10,19 @@ export type CardProps = {
     TechStack: string[],
     page: string,
     code: string,
-    direction:boolean,
+    direction: boolean,
 }
 
 const Card = (props: CardProps) => {
     const { title, image, description, TechStack, page, code, direction } = props
     return (
-        <div className={`flex mt-14 w-full h-[400px] bg-white rounded-3xl p-10 drop-shadow-lg ${direction ? "flex-row": "flex-row-reverse"}`}>
+        <div className={`flex mt-14 w-full h-[500px] bg-white rounded-3xl p-10 drop-shadow-lg ${direction ? "flex-row" : "flex-row-reverse"} justify-around`}>
             <div>
-                <img src={image} alt={image} />
+                <img src={image} alt={image} className='w-full h-full' />
             </div>
-            <div className={'flex flex-col items-center '}>
-                <h2>{title}</h2>
-                <p>{description}</p>
+            <div className={'flex flex-col items-center w-[50%]'}>
+                <h2 className='font-extrabold text-xl mb-8'>{title}</h2>
+                <p className='leading-8 text-justify '>{description}</p>
 
                 <div className='flex flex-wrap gap-5 items-center mt-14'>
                     {TechStack && TechStack.map((el, index) => <div key={index} className='px-6 py-2 text-white bg-teal-700 rounded-xl drop-shadow-md'>{el}</div>)}
