@@ -1,5 +1,5 @@
 
-
+"use client"
 import React from 'react'
 
 export const Mode = ({ status }: { status: string }) => {

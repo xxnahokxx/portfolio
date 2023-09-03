@@ -9,7 +9,7 @@ import { useEffect, useState } from 'react'
 export default function Home() {
 
   const [theme, setTheme] = useState<string>(() => {
-    if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+    if (typeof window !== 'undefined' && window.matchMedia("(prefers-color-scheme: dark)").matches) {
       return "dark";
     }
 
