@@ -51,7 +51,7 @@ const HomeSection = () => {
                         </div>
                         <Image src={photo} alt="Photo" className={`h-[300px] w-[300px] object-cover m-auto border-solid border-black border-[5px] rounded-full ${isVisible ? "animate-fade-left animate-ease-out" : "opacity-0"} `} />
                     </div>
-                    <div className={`w-[70%] pt-20 flex flex-wrap items-center ${isVisible ?"animate-flip-up animate-delay-500" : "opacity-0"}`}>
+                    <div className={`w-[70%] mt-20 py-3 rounded flex flex-wrap items-center dark:bg-slate-200/40  ${isVisible ?"animate-flip-up animate-delay-500" : "opacity-0"}`}>
                         <h2 className="font-bold">Tecnologias:</h2>
                         <Image src={PostgreSQL} alt="Css" title="PostgreSQL" className="h-[65px] w-[65px] object-scale-down m-auto" />
                         <Image src={Mongo} alt="Html" title="MongoDB" className="h-[65px] w-[65px] object-scale-down m-auto " />

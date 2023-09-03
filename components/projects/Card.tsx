@@ -20,7 +20,7 @@ const Card = (props: CardProps) => {
         <VisibilitySensor partialVisibility>
             {({ isVisible }: { isVisible : boolean}) => (
 
-                <div className={`flex flex-col mt-14 w-full h-auto md:h-auto lg:h-[650px] 2xl:h-[500px] bg-white rounded-3xl p-10 drop-shadow-lg ${direction ? "lg:flex-row" : "lg:flex-row-reverse"} ${direction && isVisible ? "animate-fade-left animate-delay-300" : "opacity-0"} ${!direction && isVisible ? "animate-fade-right animate-delay-300" : "opacity-0"} justify-around`}>
+                <div className={`flex flex-col mt-14 w-full h-auto md:h-auto lg:h-[650px] 2xl:h-[500px] bg-white dark:bg-stone-900 transition-colors duration-300 rounded-3xl p-10 drop-shadow-lg ${direction ? "lg:flex-row" : "lg:flex-row-reverse"} ${direction && isVisible ? "animate-fade-left animate-delay-300" : "opacity-0"} ${!direction && isVisible ? "animate-fade-right animate-delay-300" : "opacity-0"} justify-around`}>
                     <div>
                         <img src={image} alt={image} className='w-full h-full' />
                     </div>

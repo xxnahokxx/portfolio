@@ -9,7 +9,7 @@ const About = () => {
         <VisibilitySensor partialVisibility>
             {({ isVisible }: { isVisible: boolean }) => (
                 <div className='pt-24 mt-[100px]' id="about">
-                    <div className={`min-h-[70vh] flex flex-col-reverse mx-3 lg:grid lg:grid-cols-2 bg-white items-center rounded-[40px] overflow-hidden  drop-shadow-lg ${isVisible ? "animate-fade" : "opacity-0"}`} >
+                    <div className={`min-h-[70vh] flex flex-col-reverse mx-3 lg:grid lg:grid-cols-2 bg-white dark:bg-zinc-900 items-center rounded-[40px] overflow-hidden  drop-shadow-lg ${isVisible ? "animate-fade" : "opacity-0"}`} >
                         <div className='p-16 flex flex-col justify-around h-full items-start'>
                             <h2 className='text-blue-600 font-extrabold'>ACERCA DE MI</h2>
                             <h3 className='font-semibold text-xl'>Un dedicado desarrollador Full Stack ubicado en Bogotá, Colombia</h3>
