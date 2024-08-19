@@ -48,7 +48,7 @@ const HomeSection = () => {
 
                             <div className={` ${isVisible ? "animate-fade-right animate-duration-1000 animate-delay-300 animate-ease-out" : "opacity-0"}`}>
                                 <h1 className="text-[60px] font-extrabold mb-5">Full Stack Web Developer</h1>
-                                <p className="text-justify mb-4">Hola, soy Johan Amaya, un desarrollador apasionado y comprometido, interesado por nuevas tecnologías, ubicado en Bogotá-Colombia, siempre en busca de innovación y aprendizaje continuo.</p>
+                                <p className="text-justify mb-4">Hola, soy Johan Amaya, un desarrollador muy curioso y comprometido, interesado por nuevas tecnologías, ubicado en Bogotá-Colombia, siempre en busca de innovación y aprendizaje continuo.</p>
                             </div>
 
                             <div className="flex gap-4">

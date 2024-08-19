@@ -10,7 +10,7 @@ const Projects = () => {
         {({isVisible}:{isVisible: boolean}) => (
           <div className={isVisible ?'animate-fade' : "opacity-0"}>
             <h2 className='text-blue-600 font-extrabold ' >PORTFOLIO</h2>
-            <p className='mt-8 mb-14 font-medium '>Te presento a continuacion algunos de los proyectos en los que e participado.</p>
+            <p className='mt-8 mb-14 font-medium '>Te presento a continuación algunos de los proyectos en los que e participado.</p>
           </div>
         )}
       </VisibilitySensor>

@@ -1,11 +1,11 @@
 
 const projects = [
     {
-        title: "Doggy Style",
-        description: "Proyecto individual de Henry: Este proyecto mas que nada esta creado con la intencion de tener una pagina en la cual se pueda consultar las razas de perro existentes, y poder ver al detalle cada una de estas, y en caso de que no exista una en nuestro catalogo, podemos agregar una nueva raza con nuestro formulario de creacion.",
-        image: "https://svgsilh.com/svg/1293792.svg",
-        TechStack: ["React", "javascript", "express", "postgreSQL", "CSS"],
-        page: "https://doggystyle.up.railway.app/",
+        title: "Cauce",
+        description: "Proyecto freelance: Desarrollé el sitio web de Cauce, una consultora estratégica, empleando Next.js, TypeScript y Tailwind CSS. Este proyecto se centró en combinar un rendimiento optimizado con un diseño limpio y moderno que comunica confianza y profesionalismo. La interfaz intuitiva permite a los usuarios navegar sin esfuerzo, accediendo rápidamente a la información esencial de los servicios de la consultora. Además, la estructura modular del código facilita futuras expansiones y personalizaciones, asegurando que el sitio pueda crecer junto con la empresa.",
+        image: "/Cauce_grey.png",
+        TechStack: ["Next.js", "TypeScript", "Tailwind", "CSS"],
+        page: "https://cauce.co/",
         code: "https://github.com/xxnahokxx/pi_dogs_henry",
     },
     {
@@ -19,7 +19,7 @@ const projects = [
 
     {
         title: "Rick and Morty",
-        description: "Para este proyecto, despues del conocimiento adquirido con el proyecto grupal, decidí acentar mis conocimientos en las tecnologias adiquiridas en la fase grupal y generar esta pagina con la cual se busca aprovechar todos esos veneficios que nos birnda la API de Rick and Morty.  Este proyecto esta en proceso de desarrollo...",
+        description: "Para este proyecto, después del conocimiento adquirido con el proyecto grupal, decidí asentar mis conocimientos en las tecnologías adquiridas en la fase grupal y generar esta pagina con la cual se busca aprovechar todos esos beneficios que nos brinda la API de Rick and Morty.  Este proyecto esta en proceso de desarrollo...",
         image: "https://rick-and-morty-johan.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FRaM1.ce9fedc2.png&w=828&q=75",
         TechStack: ["Next.js", "TypeScript", "Redux Toolkit", "Mongoose", "MongoDB", "Tailwind", "Clerk"],
         page: "https://rick-and-morty-johan.vercel.app/",
