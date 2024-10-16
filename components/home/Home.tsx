@@ -43,7 +43,7 @@ const HomeSection = () => {
 
             {({ isVisible }: { isVisible: boolean }) => (
                 <div className="flex flex-col min-h-screen box-border justify-center items-center" id="home">
-                    <div className=" flex flex-col-reverse px-5 pt-20 lg:grid lg:grid-cols-3 w-[100%] lg:w-[70%] items-center">
+                    <div className=" flex flex-col-reverse gap-4 px-5 pt-20 lg:grid lg:grid-cols-3 w-[100%] lg:w-[70%] items-center">
                         <div className="col-span-2 flex flex-col justify-around h-full">
 
                             <div className={` ${isVisible ? "animate-fade-right animate-duration-1000 animate-delay-300 animate-ease-out" : "opacity-0"}`}>
