@@ -5,8 +5,8 @@ const projects = [
         description: "Proyecto freelance: Desarrollé el sitio web de Cauce, una consultora estratégica, empleando Next.js, TypeScript y Tailwind CSS. Este proyecto se centró en combinar un rendimiento optimizado con un diseño limpio y moderno que comunica confianza y profesionalismo. La interfaz intuitiva permite a los usuarios navegar sin esfuerzo, accediendo rápidamente a la información esencial de los servicios de la consultora. Además, la estructura modular del código facilita futuras expansiones y personalizaciones, asegurando que el sitio pueda crecer junto con la empresa.",
         image: "/Cauce_grey.png",
         TechStack: ["Next.js", "TypeScript", "Tailwind", "CSS"],
-        page: "https://cauce.co/",
-        code: "https://github.com/xxnahokxx/pi_dogs_henry",
+        page: "https://cauce-git-main-johan-steeven-amaya-vanegas-projects.vercel.app/en",
+        code: "",
     },
     {
         title: "Parcels",
