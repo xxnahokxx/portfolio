@@ -12,7 +12,7 @@ const Navbar = ({ theme, status }: { theme: Function, status: string }) => {
                 <a href="#home">Inicio</a>
                 <a href="#about">Acerca de mi</a>
                 <a href="#projects">Proyectos</a>
-                <button onClick={() => theme()}><Mode status={status} /></button>
+                <button aria-label="Modo Claro/Oscuro" onClick={() => theme()}><Mode status={status} /></button>
             </div>
         </div>
     )
