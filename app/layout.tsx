@@ -9,8 +9,8 @@ const inter = Roboto({
 })
 
 export const metadata: Metadata = {
-  title: 'Portfolio Johan Amaya',
-  description: 'Bienvenidos a mi portafolio de desarrollo web',
+  title: 'Portfolio de desarrollo web | Johan Amaya',
+  description: 'Descubre mi portafolio de desarrollo web, donde presento proyectos modernos y optimizados con tecnologías como React, Next.js, y más. ¡Conoce cómo puedo ayudarte a crear sitios web de alto impacto!',
 }
 
 export default function RootLayout({

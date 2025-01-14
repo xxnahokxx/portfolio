@@ -25,7 +25,7 @@ const Card = (props: CardProps) => {
                         <img src={image} alt={image} className='w-full h-auto ' loading="lazy"/>
                     </div>
                     <div className={'flex flex-col items-center lg:w-[70%] xl:w-[50%]'}>
-                        <h2 className='font-extrabold text-xl mb-8'>{title}</h2>
+                        <h3 className='font-extrabold text-xl mb-8'>{title}</h3>
                         <p className='leading-8 text-justify '>{description}</p>
 
                         <div className='flex flex-wrap gap-5 items-center mt-14'>
