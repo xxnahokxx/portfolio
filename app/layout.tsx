@@ -11,6 +11,14 @@ const inter = Roboto({
 export const metadata: Metadata = {
   title: 'Portfolio de desarrollo web | Johan Amaya',
   description: 'Descubre mi portafolio de desarrollo web, donde presento proyectos modernos y optimizados con tecnologías como React, Next.js, y más. ¡Conoce cómo puedo ayudarte a crear sitios web de alto impacto!',
+  robots: 'index, follow',
+  openGraph: {
+    title: 'Portfolio de desarrollo web | Johan Amaya',
+    description: 'Descubre mi portafolio de desarrollo web, donde presento proyectos modernos y optimizados con tecnologías como React, Next.js, y más. ¡Conoce nuestas habilidades y proyectos!',
+    url: 'https://nahok.dev',
+    siteName: 'Portfolio de desarrollo web | Johan Amaya',
+  }
+  
 }
 
 export default function RootLayout({
@@ -19,7 +27,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className='scroll-smooth'>
+    <html lang="es" className='scroll-smooth'>
       <head>
         <link rel="icon" href="/fabicon.ico" />
       </head>
