@@ -1,6 +1,6 @@
 "use client"
 import React from 'react'
-import compu from "@/public/sistema-concepto-sitio-web.jpg"
+import compu from "@/public/sistema-concepto-sitio-web.webp"
 import Image from 'next/image'
 import VisibilitySensor from 'react-visibility-sensor'
 

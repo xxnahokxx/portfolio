@@ -18,7 +18,7 @@ export const Mode = ({ status }: { status: string }) => {
                         <circle cx="12" cy="9" r="5.5">
                             <animate fill="freeze" attributeName="cy" begin="1s" dur="0.5s" values="9;15" />
                         </circle>
-                        <g fill-opacity="0">
+                        <g fillOpacity="0">
                             <use href="#lineMdLightDark2" transform="rotate(-75 12 15)" />
                             <use href="#lineMdLightDark2" transform="rotate(-25 12 15)" />
                             <use href="#lineMdLightDark2" transform="rotate(25 12 15)" />
@@ -27,7 +27,7 @@ export const Mode = ({ status }: { status: string }) => {
                         </g>
                     </g>
                     <path d="M0 10h26v5h-26z" />
-                    <path fill="none" stroke="#fff" stroke-dasharray="26" stroke-dashoffset="26" stroke-linecap="round" stroke-width="2" d="M1 12h22">
+                    <path fill="none" stroke="#fff" strokeDasharray="26" strokeDashoffset="26" strokeLinecap="round" strokeWidth="2" d="M1 12h22">
                         <animate fill="freeze" attributeName="stroke-dashoffset" begin="0.5s" dur="0.4s" values="26;52" />
                     </path>
                 </mask>

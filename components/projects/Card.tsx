@@ -22,7 +22,7 @@ const Card = (props: CardProps) => {
 
                 <div className={`flex flex-col gap-6 items-center mt-14 w-full h-auto md:h-auto lg:min-h-[600px] 2xl:min-h-[550px] bg-white dark:bg-stone-900 transition-colors duration-300 rounded-3xl p-10 drop-shadow-lg ${direction ? "lg:flex-row" : "lg:flex-row-reverse"} ${direction && isVisible ? "animate-fade-left animate-delay-300" : "opacity-0"} ${!direction && isVisible ? "animate-fade-right animate-delay-300" : "opacity-0"} justify-around`}>
                     <div className='2xl:w-[30%] w-[300px] md:w-[30%]'>
-                        <img src={image} alt={image} className='w-full h-auto ' />
+                        <img src={image} alt={image} className='w-full h-auto ' loading="lazy"/>
                     </div>
                     <div className={'flex flex-col items-center lg:w-[70%] xl:w-[50%]'}>
                         <h2 className='font-extrabold text-xl mb-8'>{title}</h2>
